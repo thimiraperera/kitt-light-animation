@@ -8,6 +8,6 @@ Knight Rider Style Light Animation inspired from KITT.
 
 ## Files Included
 
-- `kitt.html` - Main HTML structure.
+- `index.html` - Main HTML structure.
 - `kitt.css` - Styling & Animation.
 - `favicon.png` - Favicon Image.
