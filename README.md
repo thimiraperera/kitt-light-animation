@@ -1,4 +1,4 @@
-# kitt-light-animation
+# KITT Light Animation
 
 Simple Knight Rider KITT LED Light Animation using only HTML & CSS.
 
