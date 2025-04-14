@@ -1,0 +1,93 @@
+body {
+	background-color: black;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.knight-rider {
+	position: relative;
+	width: 100%;
+}
+
+.light-row {
+	display: flex;
+	flex-direction: row;
+}
+.light-row-reverse {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.light {
+	background-color: transparent;
+	width: 12.5%;
+	aspect-ratio: 8 / 3;
+	animation-name: kitt;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+/* to Right */
+#light1 {
+	animation-delay: 0ms;
+}
+#light2 {
+	animation-delay: 200ms;
+}
+#light3 {
+	animation-delay: 400ms;
+}
+#light4 {
+	animation-delay: 600ms;
+}
+#light5 {
+	animation-delay: 800ms;
+}
+#light6 {
+	animation-delay: 1000ms;
+}
+#light7 {
+	animation-delay: 1200ms;
+}
+#light8 {
+	animation-delay: 1400ms;
+}
+
+/* to Left */
+#light9 {
+	animation-delay: 1600ms;
+}
+#light10 {
+	animation-delay: 1800ms;
+}
+#light11 {
+	animation-delay: 2000ms;
+}
+#light12 {
+	animation-delay: 2200ms;
+}
+#light13 {
+	animation-delay: 2400ms;
+}
+#light14 {
+	animation-delay: 2600ms;
+}
+#light15 {
+	animation-delay: 2800ms;
+}
+#light16 {
+	animation-delay: 3000ms;
+}
+
+@keyframes kitt {
+	0% {background-color: transparent;}
+	5% {background-color: #CC0000;}
+	50% {background-color: transparent;}
+}
